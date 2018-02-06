@@ -1,0 +1,50 @@
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: aquamarine;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+
+#todo-lists {
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 10px;
+}
+
+body {
+    margin: 0;
+    color: aquamarine;
+    font-family: 'Roboto', sans-serif;
+}
+
+header a {
+    text-align: center;
+    padding: 10px;
+    color: gold;
+    text-decoration: none;
+}
+
+h1 {
+    margin: 0;
+}
+
+.list a {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #eeeeee;
+    color: aquamarine;
+    text-decoration: none;
+}
+
+.list {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #eeeeee;
+    border: 1px solid #cccccc;
+}
+
+.list-title {
+    margin-left: 20px;
+}
+
