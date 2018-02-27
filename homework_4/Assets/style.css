@@ -1,0 +1,260 @@
+/** Header **/
+
+.title {
+    text-align:center;
+}
+
+.topbar {
+    height:35px;
+    padding-top:0px;
+}
+
+#firstbar {
+    padding-left:100px;
+}
+
+.bar {
+    padding-right:187px;
+}
+
+#bunlogo {
+
+}
+
+/** Homepage styling **/
+
+#homepic {
+    position:relative;
+    margin-left:157.5px;
+    margin-top:25px;
+}
+
+#shopNow {
+    position:absolute;
+    left:427.5px;
+    top:190.5px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+#info {
+    margin-top:20px;
+    text-align:center;
+}
+
+#Hours {
+    position:relative;
+    left:325px;
+    width:280px;
+    height:230px;
+    float:left;
+    border: 1px solid #979797;
+}
+
+#About {
+    position:relative;
+    width:280px;
+    height:230px;
+    float:left;
+    left:375px;
+    border: 1px solid #979797;
+}
+
+#description{
+    padding:8px;
+    padding-top:10px;
+}
+
+.time {
+    padding:5px;
+}
+
+/** Product Detail Page Styling **/
+
+#original {
+    position:relative;
+    float:left;
+    left:0px;
+    width:260px;
+    height:260px;
+    border: 1px solid #979797;
+
+}
+
+#originalgf {
+    position:relative;
+    left:50px;
+    float:left;
+    width:260px;
+    height:260px;
+    border: 1px solid #979797;
+}
+
+.productimg {
+    padding-left:48px;
+}
+
+.addtocart {
+    position:relative;
+    left:50%;
+    top:20px;
+    padding:10px;
+}
+
+#caramel {
+    float:left;
+    width:260px;
+    height:260px;
+    border: 1px solid #979797;
+}
+
+#blackberry {
+    position:relative;
+    left:100px;
+    float:left;
+    width:260px;
+    height:260px;
+    border: 1px solid #979797;
+}
+
+#pumpkin {
+    position:relative;
+    left:150px;
+    float:left;
+    width:260px;
+    height:260px;
+    border: 1px solid #979797;
+}
+
+#walnut {
+    position:relative;
+    left:50px;
+    float:left;
+    width:260px;
+    height:260px;
+    border: 1px solid #979797;
+}
+
+.space {
+    height:360px;
+}
+
+/** Product Detail Styling **/
+
+.space2 {
+    height:400px;
+}
+
+#price {
+    position:relative;
+    top:60px;
+    text-align:left;
+    padding-top:20px;
+    padding:20px;
+    font-weight: bold;
+    font-size:20px;
+}
+
+#glaze {
+    position:relative;
+    top:60px;
+    text-align:left;
+    padding:15px;
+    font-size:17px;
+}
+
+#quantity {
+    position:relative;
+    top:60px;
+    text-align:left;
+    font-size:17px;
+    padding:15px;
+}
+
+
+#caramelpic {
+    float:left;
+    padding-left:70px;
+}
+
+#picture {
+    float:left;
+}
+
+#ingredients {
+    position:relative;
+    left:100px;
+    top:80px;
+    float:left;
+    width:200px;
+    height:260px;
+    border: 1px solid #979797;
+    text-align:center;
+}
+
+#nutrition {
+    position:relative;
+    left:100px;
+    top:80px;
+    float:left;
+    width:200px;
+    height:260px;
+    border: 1px solid #979797;
+    text-align:center;
+}
+
+.ingredienttext {
+    padding:50px;
+}
+
+.addtocartbig {
+    position:relative;
+    left:10px;
+    top:0px;
+    padding:10px;
+    font-size:15px;
+    font-weight:bold;
+}
+
+#buttons {
+    position:relative;
+    top:80px;
+    left:170px;
+    width:200px;
+    height:260px;
+    float:left;
+}
+
+.space3 {
+    height:360px;
+    padding-left:70px;
+}
+
+#alsobought {
+    padding-left:70px;
+}
+
+#linebought {
+    position:relative;
+    left:70px;
+}
+/** General Styling **/
+
+body {
+    color:#4A4A4A;
+}
+
+hr {
+    color:#979797;
+}
+
+h3 {
+    padding-left:210px;
+}
+
+h4 {
+    padding-left:20px;
+}
+
