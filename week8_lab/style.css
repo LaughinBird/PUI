@@ -1,0 +1,26 @@
+h1 {
+    text-align:center;
+}
+
+p {
+    text-align:center;
+}
+
+#container {
+    margin: 0 auto;
+    width: 80%;
+    text-align:center;
+}
+
+button {
+    background-color: springgreen;
+    border: 2px solid mediumspringgreen;
+    padding: 10px;
+    text-align: center;
+    font-size:16px;
+}
+
+img {
+    max-width:100%;
+    height:auto;
+}
