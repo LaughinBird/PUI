@@ -280,12 +280,17 @@
     background-color:#FFFFE7;
 }
 
+.cartimg {
+    width:164px;
+    height:123px;
+}
+
 .insidecart {
-    margin-right:5%;
+    margin-right:7%;
 }
 
 #insidecartfirst {
-    margin-left:5%;
+    margin-left:7%;
 }
 
 

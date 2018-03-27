@@ -7,11 +7,13 @@ function createPicture(object) {
     if (name == "Original") {
         img.setAttribute("src", "Assets/original.jpg");
     } else if (name == "Caramel Pecan") {
-        img.setAttribute("src", "Assets/caramel.jpg");
-    } else if (name == "Caramel Pecan with Sugar Milk Glaze" ||
-                        "Caramel Pecan with Vanilla Milk Glaze" ||
-                        "Caramel Pecan with Double Chocolate Glaze") {
         img.setAttribute("src", "Assets/caramel2.jpg");
+    } else if (name == "Caramel Pecan with Sugar Milk Glaze") {
+        img.setAttribute("src", "Assets/original.jpg");
+    } else if (name == "Caramel Pecan with Vanilla Milk Glaze") {
+        img.setAttribute("src", "Assets/walnut.jpg");
+    } else if (name == "Caramel Pecan with Double Chocolate Glaze") {
+        img.setAttribute("src", "Assets/pumpkin.jpg");
     }
     span.appendChild(img);
     return span;

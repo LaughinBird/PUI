@@ -59,7 +59,7 @@ function changeName() {//Change the name of the product depending on glaze
 function changeImg() {
     var glaze = getGlaze();
     if (glaze == "none") {
-        $("#caramelpic").attr("src", "Assets/blackberry.jpg");
+        $("#caramelpic").attr("src", "Assets/caramel2.jpg");
     } else if (glaze == "sugar-milk") {
         $("#caramelpic").attr("src", "Assets/original.jpg");
     } else if (glaze == "vanilla-milk") {
