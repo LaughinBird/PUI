@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>BunBun Bake Shop</title>
+        <meta charset="UTF-8">
+        <!-- styles -->
+        <link rel="stylesheet" type="text/css" href="Assets/style.css">
+        <script
+            src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+        </script>
+        <script src="main.js" type="text/javascript"></script>
+    </head>
+
+    <body>
+        <header>
+            <h1 class="title">BunBun Bake Shop<img src="Assets/bunbunlogo.jpg"
+            alt="logo"></h1>
+        </header>
+
+        <div>
+            <hr>
+            <div class="topbar">
+                <span id="firstbar" class="bar">
+                    <a href="home.html">Home</a>
+                    </span>
+                <span class="bar">About Us</span>
+                <span class="bar">
+                    <a href="productbrowsing.html">Cinnamon Rolls</a>
+                </span>
+                <span class="bar">Catering</span>
+                <span>
+                    <a href="cart.html">
+                        <img id="cart" alt="logo" src="Assets/cart.jpg">
+                        <svg height="35" width="35">
+                            <circle class="cartcircle" cx="15" cy="15" r="10">
+                            </circle>
+                            <text id="cartnumber"
+                                    x="43%" y="50%" text-anchor="middle"
+                                    alignment-baseline="middle">
+                            0
+                            </text>
+                        </svg>
+                    </a>
+                </span>
+            </div>
+            <hr>
+        </div>
+
+        <div class="space">
+            <h2>Original</h2>
+            <div id="original"><h4>Original</h4>
+                <img class="productimg" src="Assets/original.jpg">
+                <button class="addtocart">Add to cart</button>
+            </div>
+            <div id="originalgf" class="product"><h4>Original (gluten free)</h4>
+                <img class="productimg" alt="logo" src="Assets/original.jpg">
+                <button class="addtocart">Add to cart</button>
+            </div>
+        </div>
+
+        <div class="space">
+            <h2>Flavored</h2>
+            <div id="caramel" class="product">
+                <h4><a href="productdetail.html">Caramel Pecan</a></h4>
+                <img class="productimg" alt="logo" src="Assets/caramel.jpg">
+                <button class="addtocart">Add to cart</button>
+            </div>
+            <div id="walnut" class="product"><h4>Walnut</h4>
+                <img class="productimg" alt="logo" src="Assets/walnut.jpg">
+                <button class="addtocart">Add to cart</button>
+            </div>
+            <div id="blackberry" class="product"><h4>Blackberry</h4>
+                <img class="productimg" alt="logo" src="Assets/blackberry.jpg">
+                <button class="addtocart">Add to cart</button>
+            </div>
+            <div id="pumpkin" class="product"><h4>Pumpkin Spice</h4>
+                <img class="productimg" alt="logo" src="Assets/pumpkin.jpg">
+                <button class="addtocart">Add to cart</button>
+            </div>
+        </div>
+
+    </body>
+
+</html>
+

@@ -51,7 +51,6 @@ function generateRandomAnimal() {
 }
 
 $(document).ready(function() {
-    localStorage.
     var animal = JSON.parse(localStorage.getItem("savedAnimal"));
     var flag = false;
     if (animal === null) {
