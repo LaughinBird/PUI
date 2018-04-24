@@ -1,0 +1,61 @@
+@media all and (max-width:2000px) {
+    body {
+    font-size: 1.75rem;
+    }
+}
+
+@media all and (max-width:1000px) {
+    body {
+    font-size: 1.5rem;
+    }
+}
+
+.black {
+    color:black;
+}
+
+.left {
+    text-align: left;
+}
+
+.row {
+    margin:2%;
+}
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin:8%;
+}
+
+a {
+    text-decoration:none;
+    color: #D7D7D7;
+}
+/* Header bar style */
+
+#header {
+    background-color: #1A1A1A;
+}
+
+.headerbar {
+    color: #D7D7D7;
+    margin:2%;
+}
+
+/* Intro style */
+
+#intro {
+    margin:2%;
+}
+
+/* Ideation style */
+
+.ideation {
+    max-width: 75%;
+}
+
+.ideation1 {
+    max-width: 100%;
+}

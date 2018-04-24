@@ -1,0 +1,104 @@
+@media all and (max-width:2000px) {
+    body {
+    font-size: 1.75rem;
+    }
+}
+
+@media all and (max-width:1000px) {
+    body {
+    font-size: 1.5rem;
+    }
+}
+
+.black {
+    color:black;
+}
+
+/* Header bar styling */
+
+#header {
+    background-color: #1A1A1A;
+}
+
+.headerbar {
+    color: #D7D7D7;
+    margin:2%;
+}
+
+/* Home Styling */
+
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin:8%;
+}
+
+.row-eq-height > [class *= 'col-'] {
+    display: flex;
+    flex-direction: column;
+}
+
+#home {
+    margin:2%;
+}
+
+.home {
+    align-self: center;
+}
+
+#homeimg {
+    max-width:100%;
+    height:auto;
+    padding: 1px;
+    border: 1px solid black;
+}
+
+#hometext{
+    padding:2%;
+}
+
+a {
+    text-decoration:none;
+    color: #D7D7D7;
+}
+
+.left {
+    text-align: left;
+}
+/* Biography Styling */
+
+body {
+    padding:2%;
+}
+
+#donner {
+    max-width:100%;
+}
+
+.bio {
+    align-self: center;
+}
+
+#bio {
+    margin:2%;
+}
+/* Work Styling */
+
+.work {
+    margin:1%;
+}
+
+.project-box {
+    border: 2px solid black;
+    text-align: center;
+}
+
+/* Play Styling */
+
+/* Contact Styling */
+
+#contact {
+    margin:8%;
+}
